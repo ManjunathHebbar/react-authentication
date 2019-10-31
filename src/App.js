@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import FormLogin from './Authentication/form-login/form-login.component';
+import {Route,Switch} from 'react-router-dom';
+import ForgotPassword from './Authentication/forgot-password/forgot-password.component';
+import ResetPassword from './Authentication/reset-password/reset-password.componet';
+import HomePage from './home-page/home-page.component';
+import Doctors from './doctors-page/doctors.components'
+import Patients from './patients-page/patients.components'
+class App extends React.Component{
+  constructor(props){
+    super(props)
+    this.state = {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    }
+  } 
+  render(){
+    return( 
+      <div>
+        <Switch>
+          <Route exact path="/" component={FormLogin}/>
+          <Route path="/forgot-password" component={ForgotPassword}/>
+          <Route exact path="/reset-password" component={ResetPassword}/>
+          <Route path="/home-page" component={HomePage}/>
+          <Route path="/home-page/doctors" component={Doctors}/>
+          <Route path="/home-page/patients" component={Patients}/>
+        </Switch>
+     </div>
+    );
+  }
+
 }
+
 
 export default App;

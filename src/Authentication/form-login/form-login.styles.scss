@@ -1,0 +1,34 @@
+.form-login {
+  width:500px;
+  height: 400px;
+  margin: auto;
+  margin-top:150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+  & .form{
+    padding: 10px 80px 100px 80px;
+    box-shadow: none;
+
+    & .form-head{
+      padding: 10px;
+      margin: 0 40%;
+  }
+
+  & .form-group{
+      padding: 5px;
+  }
+
+  & .button{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+  }
+ 
+  & .forgot-password{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+  }
+}
+}
