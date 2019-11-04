@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 const CardComponent = ({doctorData,keys}) => {
     const {CardComponent,profilePicture,Name,email,gender} = Styles;
     

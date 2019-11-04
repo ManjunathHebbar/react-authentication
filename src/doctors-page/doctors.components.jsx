@@ -19,7 +19,7 @@ class Doctors extends React.Component{
                  <div>
                  <CardComponent
                    keys = {index}
-                   doctorData={data}
+                   doctorData= {data}
                  />
                  </div>
                )
