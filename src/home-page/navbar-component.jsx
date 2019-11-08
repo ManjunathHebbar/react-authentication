@@ -11,12 +11,12 @@ constructor(props){
     this.state = {
         showNav:true,
         hideDoctor:true,
-        hidePatient:true,
+        hidePatient:false,
     }
 }
 
 onClickDoctor = () => {
-    this.setState({hideDoctor:!this.state.hideDoctor})
+    this.setState({hidePatient:false,hideDoctor:true})
     }
 
 openNav = () => {
@@ -26,14 +26,14 @@ openNav = () => {
 closeNav = () => {
     this.setState({showNav:true})
 }
-
+ 
 onClickPatients = () => {
-    this.setState({hidePatient:!this.state.hidePatient})
+    this.setState({hidePatient:true ,hideDoctor:false})
 }
 
  render(){
   return(
-<React.Fragment>
+    <React.Fragment>
     <div className="nav-bar" onClick={this.openNav}>
     <img src={NavBar} alt="nav-bar" width="25px" height="25px"></img>
     </div>
@@ -60,10 +60,10 @@ onClickPatients = () => {
         </CSSTransition>
     </TransitionGroup>}
 
-    <div className="dummy" style={{marginLeft:this.state.showNav===false?'25%':'0%'}}>
-        {this.state.hideDoctor===false &&
+    <div className="dummy" style={{marginLeft:this.state.showNav===false?'150px':'0%'}}>
+        {this.state.hideDoctor===true &&
         <Doctors />}
-        {this.state.hidePatient === false &&
+        {this.state.hidePatient === true &&
         <Patients />}
     </div>   
  </React.Fragment>

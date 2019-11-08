@@ -1,15 +1,15 @@
 import React from 'react'
-const CardComponent = ({doctorData,keys}) => {
+const CardComponent = ({data}) => {
     const {CardComponent,profilePicture,Name,email,gender} = Styles;
     
     return(
-    <div style={CardComponent} key={keys}>
-        <div style={profilePicture}><img src={doctorData.profile_picture} alt="new"/></div>
+    <div style={CardComponent}>
+        <div style={profilePicture}><img src={data.profile_picture} alt="new"/></div>
         <div styles={Name}>
-            <strong>Name:</strong> {doctorData.first_name} {doctorData.last_name}
+            <strong>Name:</strong> {data.first_name} {data.last_name}
         </div>
-        <div styles={email}><strong>Email: </strong>{doctorData.email}</div>
-        <div styles={gender}><strong>Gender: </strong>{doctorData.gender}</div>
+        <div styles={email}><strong>Email: </strong>{data.email}</div>
+        <div styles={gender}><strong>Gender: </strong>{data.gender}</div>
     </div>
     )
 }

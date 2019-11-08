@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import Logout from '../images/sign-out-alt-solid.svg'
 import SideNav from '../home-page/navbar-component'
 
+
 class HomePage extends React.Component {
 render(){
 return(
@@ -21,7 +22,7 @@ return(
                 <Link to='/'>
                     <div className="log-out-text">Log-out</div>
                 </Link>
-            </div>
+            </div>     
         </div>
         <SideNav />
     </div>

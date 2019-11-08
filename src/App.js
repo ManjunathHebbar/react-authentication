@@ -5,6 +5,7 @@ import {Route,Switch} from 'react-router-dom';
 import ForgotPassword from './Authentication/forgot-password/forgot-password.component';
 import ResetPassword from './Authentication/reset-password/reset-password.componet';
 import HomePage from './home-page/home-page.component';
+
 const App = () => {
     return( 
       <div>
