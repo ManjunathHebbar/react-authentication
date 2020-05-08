@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-authentication/static/css/main.2300c55e.chunk.css",
+    "main.js": "/react-authentication/static/js/main.b6a2ebc9.chunk.js",
+    "main.js.map": "/react-authentication/static/js/main.b6a2ebc9.chunk.js.map",
+    "runtime-main.js": "/react-authentication/static/js/runtime-main.92092c4a.js",
+    "runtime-main.js.map": "/react-authentication/static/js/runtime-main.92092c4a.js.map",
+    "static/css/2.0624914a.chunk.css": "/react-authentication/static/css/2.0624914a.chunk.css",
+    "static/js/2.efdf08f0.chunk.js": "/react-authentication/static/js/2.efdf08f0.chunk.js",
+    "static/js/2.efdf08f0.chunk.js.map": "/react-authentication/static/js/2.efdf08f0.chunk.js.map",
+    "index.html": "/react-authentication/index.html",
+    "precache-manifest.a2bc59ded9263500553bdc59c74e14ca.js": "/react-authentication/precache-manifest.a2bc59ded9263500553bdc59c74e14ca.js",
+    "service-worker.js": "/react-authentication/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/react-authentication/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.2300c55e.chunk.css.map": "/react-authentication/static/css/main.2300c55e.chunk.css.map",
+    "static/media/bars-solid.svg": "/react-authentication/static/media/bars-solid.b3f49afd.svg",
+    "static/media/sign-out-alt-solid.svg": "/react-authentication/static/media/sign-out-alt-solid.144ff030.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92092c4a.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.efdf08f0.chunk.js",
+    "static/css/main.2300c55e.chunk.css",
+    "static/js/main.b6a2ebc9.chunk.js"
+  ]
+}
