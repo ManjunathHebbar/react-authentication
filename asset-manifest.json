@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-authentication/static/css/main.2300c55e.chunk.css",
-    "main.js": "/react-authentication/static/js/main.016f247c.chunk.js",
-    "main.js.map": "/react-authentication/static/js/main.016f247c.chunk.js.map",
+    "main.js": "/react-authentication/static/js/main.233c6e20.chunk.js",
+    "main.js.map": "/react-authentication/static/js/main.233c6e20.chunk.js.map",
     "runtime-main.js": "/react-authentication/static/js/runtime-main.92092c4a.js",
     "runtime-main.js.map": "/react-authentication/static/js/runtime-main.92092c4a.js.map",
     "static/css/2.0624914a.chunk.css": "/react-authentication/static/css/2.0624914a.chunk.css",
-    "static/js/2.efdf08f0.chunk.js": "/react-authentication/static/js/2.efdf08f0.chunk.js",
-    "static/js/2.efdf08f0.chunk.js.map": "/react-authentication/static/js/2.efdf08f0.chunk.js.map",
+    "static/js/2.7a6e1a5a.chunk.js": "/react-authentication/static/js/2.7a6e1a5a.chunk.js",
+    "static/js/2.7a6e1a5a.chunk.js.map": "/react-authentication/static/js/2.7a6e1a5a.chunk.js.map",
     "index.html": "/react-authentication/index.html",
-    "precache-manifest.ff3e8b9fb117c88a3cbe34f3479b952f.js": "/react-authentication/precache-manifest.ff3e8b9fb117c88a3cbe34f3479b952f.js",
+    "precache-manifest.5e9ceba004750428fe39eb289534b1ec.js": "/react-authentication/precache-manifest.5e9ceba004750428fe39eb289534b1ec.js",
     "service-worker.js": "/react-authentication/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/react-authentication/static/css/2.0624914a.chunk.css.map",
     "static/css/main.2300c55e.chunk.css.map": "/react-authentication/static/css/main.2300c55e.chunk.css.map",
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.92092c4a.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.efdf08f0.chunk.js",
+    "static/js/2.7a6e1a5a.chunk.js",
     "static/css/main.2300c55e.chunk.css",
-    "static/js/main.016f247c.chunk.js"
+    "static/js/main.233c6e20.chunk.js"
   ]
 }

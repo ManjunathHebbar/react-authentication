@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cabebd7b4865a5353b1e9e779fc3361",
+    "revision": "150ac5a98375545d3ae69d9ea5ca9d6a",
     "url": "/react-authentication/index.html"
   },
   {
-    "revision": "bbd1fc658355eb7a9bcc",
+    "revision": "dfce711aa59b57b854d9",
     "url": "/react-authentication/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "ed3c1061352e7f9f77a7",
+    "revision": "49e25e8d2b0de56e8e5f",
     "url": "/react-authentication/static/css/main.2300c55e.chunk.css"
   },
   {
-    "revision": "bbd1fc658355eb7a9bcc",
-    "url": "/react-authentication/static/js/2.efdf08f0.chunk.js"
+    "revision": "dfce711aa59b57b854d9",
+    "url": "/react-authentication/static/js/2.7a6e1a5a.chunk.js"
   },
   {
-    "revision": "ed3c1061352e7f9f77a7",
-    "url": "/react-authentication/static/js/main.016f247c.chunk.js"
+    "revision": "49e25e8d2b0de56e8e5f",
+    "url": "/react-authentication/static/js/main.233c6e20.chunk.js"
   },
   {
     "revision": "5adb89c95c2af88ecb6b",
