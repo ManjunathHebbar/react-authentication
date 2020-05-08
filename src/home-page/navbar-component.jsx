@@ -34,7 +34,7 @@ onClickPatients = () => {
  render(){
   return(
     <React.Fragment>
-    <div className="nav-bar" onClick={this.openNav}>
+    <div className="nav-bar" onClick={this.state.showNav ? this.openNav : this.closeNav}>
     <img src={NavBar} alt="nav-bar" width="25px" height="25px"></img>
     </div>
    
